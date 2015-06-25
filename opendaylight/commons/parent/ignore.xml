@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suppressions xmlns="https://www.owasp.org/index.php/OWASP_Dependency_Check_Suppression">
+    <suppress>
+       <notes><![CDATA[file name: javax.servlet.jsp.jstl-1.2.1.jar]]></notes>
+       <sha1>7F687140E9D264EE00EAA924714ADF9A82CC18DC</sha1>
+       <cve>CVE-2013-2566</cve>
+    </suppress>
+    <suppress>
+       <notes><![CDATA[file name: javax.servlet.jsp.jstl-1.2.1.jar]]></notes>
+       <sha1>7F687140E9D264EE00EAA924714ADF9A82CC18DC</sha1>
+       <cve>CVE-2011-5035</cve>
+    </suppress>
+</suppressions>
