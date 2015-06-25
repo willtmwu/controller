@@ -170,6 +170,7 @@
     </pluginManagement>
     <plugins>
 
+	<!-- FindBugs Static Analysis -->
 
       <plugin>
         <groupId>org.apache.felix</groupId>
