@@ -57,8 +57,8 @@
           <xmlOutput>true</xmlOutput>
           <!--<findbugsXmlOutput>true</findbugsXmlOutput>
 	  <findbugsXmlWithMessages>true</findbugsXmlWithMessages>-->
-          <!--<includeFilterFile>${session.executionRootDirectory}/findbugs-security-include.xml</includeFilterFile>
-          <excludeFilterFile>${session.executionRootDirectory}/findbugs-security-exclude.xml</excludeFilterFile>-->
+          <includeFilterFile>${session.executionRootDirectory}/findbugs-security-include.xml</includeFilterFile>
+          <excludeFilterFile>${session.executionRootDirectory}/findbugs-security-exclude.xml</excludeFilterFile>
           <plugins>
             <plugin>
               <groupId>com.h3xstream.findsecbugs</groupId>
