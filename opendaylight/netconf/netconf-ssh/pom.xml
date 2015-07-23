@@ -28,16 +28,15 @@
       <groupId>${project.groupId}</groupId>
       <artifactId>netconf-impl</artifactId>
     </dependency>
-      <dependency>
-          <groupId>org.opendaylight.controller</groupId>
-          <artifactId>threadpool-config-api</artifactId>
-      </dependency>
-      <dependency>
-          <groupId>org.opendaylight.controller</groupId>
-          <artifactId>netty-config-api</artifactId>
-      </dependency>
-
-      <dependency>
+    <dependency>
+        <groupId>org.opendaylight.controller</groupId>
+        <artifactId>threadpool-config-api</artifactId>
+    </dependency>
+    <dependency>
+        <groupId>org.opendaylight.controller</groupId>
+        <artifactId>netty-config-api</artifactId>
+    </dependency>
+    <dependency>
       <groupId>org.opendaylight.yangtools.model</groupId>
       <artifactId>ietf-inet-types</artifactId>
     </dependency>
