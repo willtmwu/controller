@@ -72,6 +72,7 @@
     <containermanager.shell.version>0.7.0-SNAPSHOT</containermanager.shell.version>
     <containermanager.version>0.7.0-SNAPSHOT</containermanager.version>
     <controllermanager.northbound.version>0.2.0-SNAPSHOT</controllermanager.northbound.version>
+    <dependency.check.maven.version>1.2.1</dependency.check.maven.version>
     <devices.web.version>0.6.0-SNAPSHOT</devices.web.version>
     <dummy-console.version>1.3.0-SNAPSHOT</dummy-console.version>
     <config.statistics.manager.configfile>30-statistics-manager.xml</config.statistics.manager.configfile>
@@ -82,7 +83,8 @@
     <felix.util.version>1.6.0</felix.util.version>
     <features.test.version>1.6.0-SNAPSHOT</features.test.version>
     <filtervalve.version>1.6.0-SNAPSHOT</filtervalve.version>
-    <findbugs.maven.plugin.version>2.4.0</findbugs.maven.plugin.version>
+    <findbugs.maven.plugin.version>3.0.1</findbugs.maven.plugin.version>
+    <findsecbugs.plugin.version>1.4.0</findsecbugs.plugin.version>
     <flowprogrammer.northbound.version>0.6.0-SNAPSHOT</flowprogrammer.northbound.version>
     <flows.web.version>0.6.0-SNAPSHOT</flows.web.version>
     <forwarding.staticrouting>0.7.0-SNAPSHOT</forwarding.staticrouting>

@@ -212,7 +212,7 @@
               <plugin>
                   <groupId>com.h3xstream.findsecbugs</groupId>
                   <artifactId>findsecbugs-plugin</artifactId>
-                  <version>1.4.0</version>
+                  <version>${findsecbugs.plugin.version}</version>
               </plugin>
           </plugins>
         </configuration>
@@ -220,19 +220,12 @@
       <!--<plugin>
         <groupId>org.owasp</groupId>
         <artifactId>dependency-check-maven</artifactId>
-        <version>1.2.1</version>
+        <version>${dependency.check.maven.version}</version>
         <configuration>
           <failBuildOnCVSS>11</failBuildOnCVSS>
           <format>ALL</format>
           <suppressionFile>${session.executionRootDirectory}/ignore.xml</suppressionFile>
         </configuration>
-        <executions>
-          <execution>
-            <goals>
-              <goal>check</goal>
-            </goals>
-          </execution>
-        </executions>
       </plugin>-->
       <plugin>
         <groupId>org.codehaus.mojo</groupId>
