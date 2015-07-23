@@ -45,7 +45,7 @@
         <version>${releaseplugin.version}</version>
       </plugin>
     </plugins>
-  </build>
+  </build>  
 
   <scm>
     <connection>scm:git:http://git.opendaylight.org/gerrit/controller.git</connection>
