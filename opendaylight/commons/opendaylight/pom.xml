@@ -190,6 +190,7 @@
     <sshd-core.version>0.14.0</sshd-core.version>
     <jmh.version>0.9.7</jmh.version>
     <lmax.version>3.3.0</lmax.version>
+    <commons.root>${basedir}</commons.root>
   </properties>
 
   <dependencyManagement>
@@ -1786,8 +1787,8 @@
           <xmlOutput>true</xmlOutput>
           <!--<findbugsXmlOutput>true</findbugsXmlOutput>
           <findbugsXmlWithMessages>true</findbugsXmlWithMessages>-->
-          <includeFilterFile>./findbugs-security-include.xml</includeFilterFile>
-          <excludeFilterFile>./findbugs-security-exclude.xml</excludeFilterFile>
+          <includeFilterFile>${commons.root}/findbugs-security-include.xml</includeFilterFile>
+          <excludeFilterFile>${session.executionRootDirectory}/findbugs-security-exclude.xml</excludeFilterFile>
           <plugins>
               <plugin>
                   <groupId>com.h3xstream.findsecbugs</groupId>
