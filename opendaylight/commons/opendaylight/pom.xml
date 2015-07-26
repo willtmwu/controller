@@ -1787,8 +1787,8 @@
           <xmlOutput>true</xmlOutput>
           <!--<findbugsXmlOutput>true</findbugsXmlOutput>
           <findbugsXmlWithMessages>true</findbugsXmlWithMessages>-->
-          <includeFilterFile>${commons.root}/findbugs-security-include.xml</includeFilterFile>
-          <excludeFilterFile>${session.executionRootDirectory}/findbugs-security-exclude.xml</excludeFilterFile>
+          <!--<includeFilterFile>${commons.root}/findbugs-security-include.xml</includeFilterFile>-->
+          <!--<excludeFilterFile>${project.basedir}/findbugs-security-exclude.xml</excludeFilterFile>-->
           <plugins>
               <plugin>
                   <groupId>com.h3xstream.findsecbugs</groupId>
